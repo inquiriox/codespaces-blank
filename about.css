@@ -1,0 +1,148 @@
+/* about.css */
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4; /* Background color for the body */
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #00111F; /* Header background color */
+    position: relative; /* Positioning for the header */
+    z-index: 100; /* Ensure header is above other content */
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navlist li {
+    margin: 0 15px;
+}
+
+.navlist a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navlist a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+
+/* About Section Styles */
+.about {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(245.59deg, #00111F 0%, #002240 28.53%, #003366 75.52%);
+    text-align: center; /* Center text for better presentation */
+}
+
+.about-text {
+    color: white;
+    max-width: 800px; /* Limit width for better readability */
+}
+
+.about-text h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 72px;
+    margin-bottom: 20px;
+}
+
+.about-text h2 {
+    font-size: 32px;
+    margin: 20px 0 10px;
+}
+
+.about-text p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Social Media Icons Styles */
+.icons {
+    display: flex;
+    justify-content: center; /* Center the icons */
+    margin-top: 20px; /* Space above the icons */
+}
+
+.icons a {
+    color: white; /* Icon color */
+    font-size: 24px; /* Icon size */
+    margin: 0 10px; /* Space between icons */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.icons a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+
+/* Scroll Down Arrow Styles */
+.scroll-down {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.scroll-down a {
+    color: white;
+    font-size: 24px;
+}
+.footer {
+    margin-top: 100px; /* Space between the footer and main content */
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+
+.footer p {
+    font-size: 14px;
+    color: #B0C4DE;
+    margin-bottom: 10px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-icons a {
+    color: white;
+    font-size: 24px;
+    background: #002240;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icons a:hover {
+    background-color: #000000;
+    transform: scale(1.1);
+}
+

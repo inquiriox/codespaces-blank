@@ -1,0 +1,128 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Header styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(0, 17, 31, 0.8);
+    z-index: 100;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+}
+
+.navlist li {
+    margin-right: 20px;
+}
+
+.navlist a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.55s ease;
+}
+
+.navlist a:hover {
+    border-bottom: 2px solid white;
+}
+
+#menu-icon {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Spacer for header */
+.spacer {
+    height: 90px; /* Adjust the height as needed */
+}
+
+/* Announcement section styles */
+.announcement-section {
+    padding: 150px 20px; /* Adds padding around the section */
+    background:  linear-gradient(245.59deg, #00111F 0%, #002240 28.53%, #003366 75.52%);
+    text-align: center; /* Center text */
+}
+
+.announcement-section h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ffffff; /* Dark color for titles */
+}
+
+.announcement-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #f0f0f0; /* Dark gray for text */
+}
+
+/* Prizes and details section styles */
+.prizes,
+.details {
+    margin: 20px 0; /* Add margin around these sections */
+}
+
+.prizes li {
+    color: white; /* Change this to your desired color */
+}
+
+.prizes h2,
+.details h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #ffffff; /* Blue for section headings */
+}
+
+/* Register button styles */
+.register-button {
+    display: inline-block;
+    background: #002240; /* Button background color */
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+.register-button:hover {
+    background: transparent;
+    border: 1px solid #002240; /* Border on hover */
+    color: #002240; /* Change text color on hover */
+}
+
+

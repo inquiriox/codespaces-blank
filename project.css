@@ -1,0 +1,101 @@
+/* Importing main style */
+@import url('style.css');
+
+.projects {
+    padding: 100px 19%;
+    background: linear-gradient(245.59deg, #00111F 0%, #002240 28.53%, #003366 75.52%);
+    color: white;
+    min-height: 100vh;
+}
+
+.projects-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.projects-content h1 {
+    font-size: 48px;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.projects-content h2 {
+    font-size: 32px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.projects-content p {
+    font-size: 16px;
+    color: white;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.scroll-down {
+    margin-top: 40px;
+}
+
+.scroll-down i {
+    color: white;
+    font-size: 24px;
+    background: #002240;
+    padding: 10px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+
+.scroll-down i:hover {
+    color: #003366;
+    transform: translateY(-5px);
+}
+
+@media (max-width: 680px) {
+    .projects-content h1 {
+        font-size: 32px;
+    }
+    .projects-content h2 {
+        font-size: 24px;
+    }
+    .projects-content p {
+        font-size: 14px;
+    }
+}
+.footer {
+    padding: 20px 0;
+    background: linear-gradient(245.59deg, #00111F 0%, #002240 28.53%, #003366 75.52%);
+    color: white;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #B0C4DE;
+    margin-bottom: 10px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-icons a {
+    color: white;
+    font-size: 24px;
+    background: #002240;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icons a:hover {
+    background: #00111F;
+    transform: scale(1.1);
+}

@@ -1,0 +1,53 @@
+
+/* Importing main style */
+@import url('style.css');
+
+
+.contact {
+    padding: 100px 0;
+    background: linear-gradient(245.59deg, #00111F 0%, #002240 28.53%, #003366 75.52%);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column; /* Ensure content stacks vertically */
+}
+
+.contact-content {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+}
+
+.contact-content h1 {
+    font-size: 70px;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact-content p {
+    font-size: 16px;
+    color: white;
+    line-height: 1.8;
+    margin-bottom: 200px; /* Adjusted spacing for more separation from icons */
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; /* Increased gap for more space between icons */
+    margin-top: 20px; /* Ensures spacing above the icons */
+    flex-wrap: wrap;
+}
+
+
+
+
+.icons a:hover {
+  
+    transform: scale(1.1); /* Slight zoom on hover */
+}
